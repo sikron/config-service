@@ -1,0 +1,1 @@
+insert into key_values (the_key, the_value) values ('k1', 'v1'), ('k2', 'v2');

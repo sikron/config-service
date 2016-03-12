@@ -1,0 +1,5 @@
+- tests
+- logger
+- assertions of parameters
+- loaders should return error after teardown, when called
+- loaderStrategies should check status/config on init() and throw exception
