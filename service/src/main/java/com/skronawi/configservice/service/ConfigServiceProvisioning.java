@@ -36,6 +36,8 @@ public class ConfigServiceProvisioning {
     @Autowired
     private Environment environment;
 
+    //TODO use a InMemoryKeyValueService as default, unless a specific one is given
+
     @Bean
     public ConfigService configService(KeyValueService keyValueService) {
         Map<String, String> keyValues = getGatheredConfig();

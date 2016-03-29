@@ -7,7 +7,7 @@ import java.util.Set;
 
 public interface PropertyReadAccess {
 
-    Property getByKey(String key) throws KeyNotExistingException, NotInitializedException;
+    Property<String> getByKey(String key) throws KeyNotExistingException, NotInitializedException;
 
     Property<String> getStringByKeyOrDefault(String key, String defaultValue) throws NotInitializedException;
 

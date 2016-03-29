@@ -78,6 +78,7 @@ public class LifeCycleImpl implements LifeCycle {
             return;
         }
         sourceLoaders.stream().forEach(SourceLoader::teardown);
+        keyValueService.getLifeCycle().teardown();
     }
 
     @Override

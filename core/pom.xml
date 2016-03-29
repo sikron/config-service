@@ -21,7 +21,7 @@
         </dependency>
         <dependency>
             <groupId>com.skronawi.keyvalueservice</groupId>
-            <artifactId>api</artifactId>
+            <artifactId>core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
